@@ -1,0 +1,26 @@
+<div className="flex items-center justify-between mb-6">
+              <p className="text-muted-foreground">{products.length}</p>
+              <div className="flex gap-4">
+                <Button variant="outline">Create</Button>
+                {/* premium select  */}
+                {/* BM Dropdown */}
+                <Select>
+                  <SelectTrigger className="w-[120px]">
+                    <SelectValue placeholder="Premium" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value="Premium">Premium</SelectItem>
+                    <SelectItem value="standard">standard</SelectItem>
+                    <SelectItem value="economy">economy</SelectItem>
+                  </SelectContent>
+                </Select>
+
+
+                <Button variant="outline">Shop Filter</Button>
+                <Button variant="ghost" size="icon" onClick={() => setToggleView(!toggleView)}>
+                  {
+                    toggleView ? <Grid className="h-4 w-4" /> : <IdCard className="h-4 w-4" />
+                  }
+                </Button>
+              </div>
+            </div>
