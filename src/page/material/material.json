@@ -1,0 +1,547 @@
+[{
+    "name": "Boards",
+    "products": [
+        {
+            "id": 1,
+            "title": "MDF Board 18mm",
+            "price": "৳1,200",
+            "image": "/images/boards/mdf-18mm.jpg",
+            "description": "High-quality MDF with a smooth finish, ideal for indoor applications.",
+            "dimensions": "8x4 ft",
+            "thickness": "18mm",
+            "materials": [
+                "Wood fibers",
+                "Resin"
+            ],
+            "features": [
+                "Smooth finish",
+                "Ideal for painting",
+                "Durable and stable"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Plywood 12mm",
+            "price": "৳950",
+            "image": "/images/boards/plywood-12mm.jpg",
+            "description": "Plywood with high strength for structural applications.",
+            "dimensions": "8x4 ft",
+            "thickness": "12mm",
+            "materials": [
+                "Wood veneer",
+                "Glue"
+            ],
+            "features": [
+                "High strength",
+                "Water-resistant",
+                "Eco-friendly"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Particle Board 15mm",
+            "price": "৳750",
+            "image": "/images/boards/particle-15mm.jpg",
+            "description": "Lightweight particle board suitable for indoor furniture.",
+            "dimensions": "8x4 ft",
+            "thickness": "15mm",
+            "materials": [
+                "Wood chips",
+                "Resin"
+            ],
+            "features": [
+                "Cost-effective",
+                "Lightweight",
+                "Smooth surface for laminating"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "HDF Board 10mm",
+            "price": "৳1,500",
+            "image": "/images/boards/hdf-10mm.jpg",
+            "description": "High-density fiberboard with enhanced durability.",
+            "dimensions": "8x4 ft",
+            "thickness": "10mm",
+            "materials": [
+                "Wood fibers",
+                "Resin"
+            ],
+            "features": [
+                "High durability",
+                "Ideal for flooring",
+                "Water-resistant surface"
+            ]
+        },
+        {
+            "id": 5,
+            "title": "OSB Board",
+            "price": "৳800",
+            "image": "/images/boards/osb.jpg",
+            "description": "Oriented strand board suitable for structural applications.",
+            "dimensions": "8x4 ft",
+            "thickness": "9mm",
+            "materials": [
+                "Wood strands",
+                "Resin"
+            ],
+            "features": [
+                "Impact resistant",
+                "Eco-friendly",
+                "High load-bearing capacity"
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Chipboard",
+            "price": "৳600",
+            "image": "/images/boards/chipboard.jpg",
+            "description": "Economical board used primarily in low-cost furniture.",
+            "dimensions": "8x4 ft",
+            "thickness": "10mm",
+            "materials": [
+                "Wood chips",
+                "Resin"
+            ],
+            "features": [
+                "Affordable",
+                "Smooth finish",
+                "Easy to cut"
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Melamine Board",
+            "price": "৳900",
+            "image": "/images/boards/melamine.jpg",
+            "description": "Melamine coated board with decorative surface.",
+            "dimensions": "8x4 ft",
+            "thickness": "18mm",
+            "materials": [
+                "Wood particles",
+                "Melamine coating"
+            ],
+            "features": [
+                "Scratch-resistant",
+                "Wide color options",
+                "Durable surface"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Veneer Board",
+            "price": "৳2,000",
+            "image": "/images/boards/veneer.jpg",
+            "description": "Board covered with a thin layer of wood veneer for a natural look.",
+            "dimensions": "8x4 ft",
+            "thickness": "19mm",
+            "materials": [
+                "Wood particles",
+                "Wood veneer"
+            ],
+            "features": [
+                "Premium look",
+                "Natural wood appearance",
+                "Durable"
+            ]
+        },
+        {
+            "id": 9,
+            "title": "Waterproof Plywood",
+            "price": "৳1,600",
+            "image": "/images/boards/waterproof-plywood.jpg",
+            "description": "Plywood treated for water resistance, ideal for kitchens and bathrooms.",
+            "dimensions": "8x4 ft",
+            "thickness": "15mm",
+            "materials": [
+                "Wood veneer",
+                "Waterproof resin"
+            ],
+            "features": [
+                "Waterproof",
+                "High strength",
+                "Durable"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Fire Retardant Board",
+            "price": "৳2,500",
+            "image": "/images/boards/fire-retardant.jpg",
+            "description": "Fire retardant treated board for safety applications.",
+            "dimensions": "8x4 ft",
+            "thickness": "18mm",
+            "materials": [
+                "Wood fibers",
+                "Fire retardant chemicals"
+            ],
+            "features": [
+                "Fire-resistant",
+                "Ideal for safety",
+                "High durability"
+            ]
+        }
+    ]
+},
+{
+    "name": "Surface",
+    "products": [
+        {
+            "id": 11,
+            "title": "Glossy Laminate Sheet",
+            "price": "৳300",
+            "image": "/images/surfacing/glossy-laminate.jpg",
+            "description": "Glossy laminate for a sleek, reflective surface.",
+            "dimensions": "8x4 ft",
+            "finish": "Glossy",
+            "materials": [
+                "Melamine",
+                "Paper"
+            ],
+            "features": [
+                "Scratch-resistant",
+                "Easy to clean",
+                "High-gloss finish"
+            ]
+        },
+        {
+            "id": 12,
+            "title": "Matte Laminate Sheet",
+            "price": "৳280",
+            "image": "/images/surfacing/matte-laminate.jpg",
+            "description": "Matte laminate for a smooth, non-reflective surface.",
+            "dimensions": "8x4 ft",
+            "finish": "Matte",
+            "materials": [
+                "Melamine",
+                "Paper"
+            ],
+            "features": [
+                "Fingerprint-resistant",
+                "Durable",
+                "Elegant matte finish"
+            ]
+        },
+        {
+            "id": 13,
+            "title": "Textured Laminate",
+            "price": "৳350",
+            "image": "/images/surfacing/textured-laminate.jpg",
+            "description": "Textured laminate for a unique feel and grip.",
+            "dimensions": "8x4 ft",
+            "finish": "Textured",
+            "materials": [
+                "Melamine",
+                "Paper"
+            ],
+            "features": [
+                "Natural feel",
+                "Non-slip surface",
+                "Stain-resistant"
+            ]
+        },
+        {
+            "id": 14,
+            "title": "Acrylic Panel",
+            "price": "৳1,200",
+            "image": "/images/surfacing/acrylic-panel.jpg",
+            "description": "Acrylic panel with a high-gloss reflective surface.",
+            "dimensions": "8x4 ft",
+            "finish": "High Gloss",
+            "materials": [
+                "Acrylic",
+                "Plastic"
+            ],
+            "features": [
+                "UV-resistant",
+                "Easy to polish",
+                "Vibrant color options"
+            ]
+        },
+        {
+            "id": 15,
+            "title": "Marble Finish Laminate",
+            "price": "৳400",
+            "image": "/images/surfacing/marble-finish.jpg",
+            "description": "Laminate with a marble effect for a luxurious feel.",
+            "dimensions": "8x4 ft",
+            "finish": "Marble",
+            "materials": [
+                "Melamine",
+                "Paper"
+            ],
+            "features": [
+                "Realistic marble look",
+                "Durable",
+                "Scratch-resistant"
+            ]
+        },
+        {
+            "id": 16,
+            "title": "Wood Grain Laminate",
+            "price": "৳450",
+            "image": "/images/surfacing/wood-grain.jpg",
+            "description": "Wood grain laminate for a natural wooden look.",
+            "dimensions": "8x4 ft",
+            "finish": "Wood Grain",
+            "materials": [
+                "Melamine",
+                "Paper"
+            ],
+            "features": [
+                "Natural wood look",
+                "Textured finish",
+                "Durable"
+            ]
+        },
+        {
+            "id": 17,
+            "title": "Leather Finish Laminate",
+            "price": "৳500",
+            "image": "/images/surfacing/leather-finish.jpg",
+            "description": "Unique leather-textured laminate for a premium feel.",
+            "dimensions": "8x4 ft",
+            "finish": "Leather",
+            "materials": [
+                "Melamine",
+                "Paper"
+            ],
+            "features": [
+                "Leather-like texture",
+                "Easy to clean",
+                "Premium appearance"
+            ]
+        },
+        {
+            "id": 18,
+            "title": "Stone Finish Laminate",
+            "price": "৳550",
+            "image": "/images/surfacing/stone-finish.jpg",
+            "description": "Stone-effect laminate for a rugged, natural look.",
+            "dimensions": "8x4 ft",
+            "finish": "Stone",
+            "materials": [
+                "Melamine",
+                "Paper"
+            ],
+            "features": [
+                "Realistic stone look",
+                "Durable",
+                "Weather-resistant"
+            ]
+        },
+        {
+            "id": 19,
+            "title": "Metallic Laminate",
+            "price": "৳600",
+            "image": "/images/surfacing/metallic.jpg",
+            "description": "Metallic laminate for a futuristic, shiny look.",
+            "dimensions": "8x4 ft",
+            "finish": "Metallic",
+            "materials": [
+                "Melamine",
+                "Paper"
+            ],
+            "features": [
+                "High shine",
+                "Scratch-resistant",
+                "Durable finish"
+            ]
+        },
+        {
+            "id": 20,
+            "title": "Embossed Laminate",
+            "price": "৳450",
+            "image": "/images/surfacing/embossed.jpg",
+            "description": "Embossed laminate with a tactile, raised pattern.",
+            "dimensions": "8x4 ft",
+            "finish": "Embossed",
+            "materials": [
+                "Melamine",
+                "Paper"
+            ],
+            "features": [
+                "Textured surface",
+                "Durable",
+                "Unique visual appeal"
+            ]
+        }
+    ]
+},
+{
+    "name": "Edging",
+    "products": [
+        {
+            "id": 21,
+            "title": "PVC Edging Strip 2mm",
+            "price": "৳50",
+            "image": "/images/edging/pvc-2mm.jpg",
+            "description": "Durable PVC edging strip for board edges.",
+            "dimensions": "20 ft",
+            "thickness": "2mm",
+            "materials": [
+                "PVC"
+            ],
+            "features": [
+                "Impact-resistant",
+                "Easy to apply",
+                "Waterproof"
+            ]
+        },
+        {
+            "id": 22,
+            "title": "ABS Edging Strip 1.5mm",
+            "price": "৳45",
+            "image": "/images/edging/abs-1-5mm.jpg",
+            "description": "ABS edging strip for a seamless finish.",
+            "dimensions": "20 ft",
+            "thickness": "1.5mm",
+            "materials": [
+                "ABS"
+            ],
+            "features": [
+                "Heat-resistant",
+                "Eco-friendly",
+                "Smooth finish"
+            ]
+        },
+        {
+            "id": 23,
+            "title": "Wood Veneer Edging",
+            "price": "৳60",
+            "image": "/images/edging/wood-veneer.jpg",
+            "description": "Natural wood veneer edging strip for premium finishes.",
+            "dimensions": "20 ft",
+            "thickness": "2mm",
+            "materials": [
+                "Wood veneer"
+            ],
+            "features": [
+                "Natural look",
+                "Can be stained",
+                "Eco-friendly"
+            ]
+        },
+        {
+            "id": 24,
+            "title": "Aluminum Edging",
+            "price": "৳100",
+            "image": "/images/edging/aluminum.jpg",
+            "description": "Aluminum edging strip for a modern touch.",
+            "dimensions": "20 ft",
+            "thickness": "1mm",
+            "materials": [
+                "Aluminum"
+            ],
+            "features": [
+                "Corrosion-resistant",
+                "Modern aesthetic",
+                "Durable and lightweight"
+            ]
+        },
+        {
+            "id": 25,
+            "title": "Chrome Edging Strip",
+            "price": "৳120",
+            "image": "/images/edging/chrome.jpg",
+            "description": "Chrome finish edging for a sleek metallic look.",
+            "dimensions": "20 ft",
+            "thickness": "1.5mm",
+            "materials": [
+                "Chrome-plated metal"
+            ],
+            "features": [
+                "Shiny finish",
+                "Corrosion-resistant",
+                "Scratch-resistant"
+            ]
+        },
+        {
+            "id": 26,
+            "title": "Flexible PVC Edging",
+            "price": "৳55",
+            "image": "/images/edging/flexible-pvc.jpg",
+            "description": "Flexible PVC edging ideal for curved edges.",
+            "dimensions": "20 ft",
+            "thickness": "2mm",
+            "materials": [
+                "PVC"
+            ],
+            "features": [
+                "Flexible",
+                "Easy to apply",
+                "Durable"
+            ]
+        },
+        {
+            "id": 27,
+            "title": "Rubber Edging Strip",
+            "price": "৳70",
+            "image": "/images/edging/rubber.jpg",
+            "description": "Rubber edging strip for a soft finish.",
+            "dimensions": "20 ft",
+            "thickness": "2.5mm",
+            "materials": [
+                "Rubber"
+            ],
+            "features": [
+                "Flexible",
+                "Impact-resistant",
+                "Easy to install"
+            ]
+        },
+        {
+            "id": 28,
+            "title": "Stainless Steel Edging",
+            "price": "৳200",
+            "image": "/images/edging/stainless-steel.jpg",
+            "description": "High-quality stainless steel edging strip.",
+            "dimensions": "20 ft",
+            "thickness": "1mm",
+            "materials": [
+                "Stainless steel"
+            ],
+            "features": [
+                "Corrosion-resistant",
+                "High durability",
+                "Modern appearance"
+            ]
+        },
+        {
+            "id": 29,
+            "title": "Self-Adhesive Edging",
+            "price": "৳60",
+            "image": "/images/edging/self-adhesive.jpg",
+            "description": "Self-adhesive edging for quick and easy installation.",
+            "dimensions": "20 ft",
+            "thickness": "1.5mm",
+            "materials": [
+                "PVC",
+                "Adhesive"
+            ],
+            "features": [
+                "No glue needed",
+                "Easy to apply",
+                "Durable"
+            ]
+        },
+        {
+            "id": 30,
+            "title": "Painted Edge Band",
+            "price": "৳75",
+            "image": "/images/edging/painted-edge.jpg",
+            "description": "Edging with a painted finish for a colorful look.",
+            "dimensions": "20 ft",
+            "thickness": "1.8mm",
+            "materials": [
+                "ABS",
+                "Paint"
+            ],
+            "features": [
+                "Custom colors available",
+                "Smooth finish",
+                "Durable coating"
+            ]
+        }
+    ]
+}]

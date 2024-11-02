@@ -38,16 +38,17 @@ const ProductLayout = () => {
     <div className="min-h-[450px] bg-background">
 
       <main className="container mx-auto px-4  ">
-        <h2 className="font-semibold text-2xl mb-4">All Products</h2>
         <div className="flex gap-4">
           {/* Sidebar */}
-          <aside className="w-2/12 shrink-0 border-r-2 pr-2">
+          {/* <aside className="w-2/12 shrink-0 border-r-2 pr-2"> */}
+          <aside className="w-2/12 shrink-0 border-r-2 pr-1 max-h-screen sticky top-[4rem]">
+        <h2 className="font-semibold text-2xl mb-4 px-2">All Products</h2>
             <nav>
               {categories.map((category) => (
                 <Link
                   key={category}
                   to={`/products/${category}`}
-                  className="block px-4 py-2 rounded-lg hover:bg-accent border-b-2"
+                  className="block px-4 py-2 mb-1 rounded-lg hover:bg-accent border-b-2"
                 >
                   {category}
                 </Link>
