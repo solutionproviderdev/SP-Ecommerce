@@ -7,7 +7,6 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
 import { useParams } from "react-router-dom";
 import materialsData from "@/page/material/material.json"; // Adjust the import path as needed
 import MaterialCard from "./MaterialCard";

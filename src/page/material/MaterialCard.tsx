@@ -10,13 +10,15 @@ import {
   import { Badge } from "@/components/ui/badge";
   import { Check } from "lucide-react";
   import img2 from "@/assets/banner/pexels_2.jpg";
+import { Link } from "react-router-dom";
   
   export default function MaterialCard({ material }) {
     // Destructure necessary data from the material prop
     const { title, price, description, dimensions, finish, materials, features } = material;
   
     return (
-      <Card className="w-full max-w-md mx-auto">
+      <Link to={`/materials/material/${material.id}`}>
+      <Card className="w-full max-w-md mx-auto hover:shadow-2xl hover:border-2 hover:border-slate-400 ">
         <CardHeader>
           <div className="relative w-full h-48 mb-1">
             <img
@@ -55,6 +57,7 @@ import {
           </ul>
         </CardFooter>
       </Card>
+      </Link>
     );
   }
   
