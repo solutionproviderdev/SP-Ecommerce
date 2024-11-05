@@ -1,9 +1,9 @@
-
+import { Outlet } from "react-router-dom";
 import sampleImage from "../../assets/banner/banner1.jpg";
-import HomeCard from "@/page/Home/HomeCard";
+import HomeCard from "../Home/HomeCard";
 
 const Category = () => {
-  const items = [
+  const categories = [
     { id: 1, title: "Full Interior", image: sampleImage },
     { id: 2, title: "Room wise", image: sampleImage },
     { id: 3, title: "Decor Item", image: sampleImage },
@@ -16,17 +16,10 @@ const Category = () => {
     { id: 10, title: "Formal Living", image: sampleImage },
   ];
 
-  // View All button handler
-  const handleViewAll = () => {
-    console.log("View All clicked");
-  };
-
   return (
-    <HomeCard
-      title='Category'
-      items={items}
-      onViewAll={handleViewAll}
-    />
+    <>
+      <HomeCard title="Category" items={categories} showAll />
+    </>
   );
 };
 

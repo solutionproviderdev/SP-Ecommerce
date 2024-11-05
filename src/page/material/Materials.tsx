@@ -12,14 +12,14 @@ import materialsData from "@/page/material/material.json"; // Adjust the import 
 import MaterialCard from "./MaterialCard";
 
 const Materials = () => {
-  const { id } = useParams(); // `id` corresponds to the category name in the URL
-  const [selectedCategory, setSelectedCategory] = useState(id);
+const {cetegory} = useParams(); // `id` corresponds to the category name in the URL
+  console.log(cetegory)
+  const [selectedCategory, setSelectedCategory] = useState(cetegory);
   const [filteredMaterials, setFilteredMaterials] = useState([]);
-
   // Update selectedCategory and filteredMaterials whenever `id` changes
   useEffect(() => {
-    setSelectedCategory(id);
-  }, [id]);
+    setSelectedCategory(cetegory);
+  }, [cetegory]);
 
   useEffect(() => {
     // Find the category that matches selectedCategory
@@ -29,7 +29,7 @@ const Materials = () => {
     if (categoryData) {
       setFilteredMaterials(categoryData.products || []);
     } else {
-      setFilteredMaterials([]); // Reset if category is not found
+      setFilteredMaterials([]);  
     }
   }, [selectedCategory]);
 

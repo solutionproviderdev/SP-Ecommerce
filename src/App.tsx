@@ -11,7 +11,6 @@ import Login from "./components/component/Login";
 import RootLayout from "./Layout/RootLayout";
 import SignUp from "./components/component/SignUp";
 import LoggedLayout from "./Layout/LoggedLayout";
-import Home from "./page/Home/Home";
 import SingleProduct from "./components/component/SingleProduct";
 import Cart from "./page/Cart/Cart";
 import AllProduct from "./page/Product/AllProduct";
@@ -20,6 +19,11 @@ import Products from "./page/Product/Products";
 import Materials from "./page/material/Materials";
 import CreateMaterial from "./page/material/createMaterial";
 import SingleMaterial from "./page/material/SingleMaterial";
+import Home from "./page/Home/Home";
+import Category from "./page/category/Category";
+import Product from "./page/Home/Product";
+import CategoryDetail from "./page/category/CategoryDetail";
+import { nestedcategories } from "./page/Home/utils";
 
 const App = () => {
   const router = createBrowserRouter(
@@ -31,6 +35,15 @@ const App = () => {
         </Route>
         <Route path="/" element={<LoggedLayout />}>
           <Route path="/home" element={<Home />} />
+          <Route path="/category" element={<Category />}>
+          </Route>
+            <Route
+              path="/category/:categoryId"
+              // path="category/:slug/*"  //for dynamic slug show instead of id 
+              element={<CategoryDetail categories={nestedcategories} />}
+            />
+
+          <Route path="/product" element={<Product />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/:id" element={<SingleProduct />} />
           <Route path="/products" element={<ProductLayout />}>
@@ -43,10 +56,7 @@ const App = () => {
             <Route path="/materials/:cetegory" element={<Materials />} />
             <Route path="/materials/create" element={<CreateMaterial />} />
           </Route>
-          <Route
-            path="/materials/material/:id"
-            element={<SingleMaterial />}
-          />
+          <Route path="/materials/material/:id" element={<SingleMaterial />} />
         </Route>
       </Route>
     )
@@ -56,3 +66,5 @@ const App = () => {
 };
 
 export default App;
+
+

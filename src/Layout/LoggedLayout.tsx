@@ -1,7 +1,7 @@
 import { Outlet } from 'react-router-dom'
 import { useState } from "react"
-import Navbar from '@/shared/Navbar'
-import Footer from '@/shared/Footer'
+import Navbar from '@/components/shared/Navbar'
+import Footer from '@/components/shared/Footer'
 
 const LoggedLayout = () => {
     const [isLoggedIn, setIsLoggedIn] = useState(false)

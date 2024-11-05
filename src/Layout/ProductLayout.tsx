@@ -58,8 +58,6 @@ const ProductLayout = () => {
 
           {/* Main Content */}
           <div className="flex-1">
-            
-
             {/* outlet is hare */}
             <Outlet />
           </div>
