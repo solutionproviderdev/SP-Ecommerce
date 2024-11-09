@@ -1,5 +1,6 @@
 import { ItemCard } from "@/components/shared/ItemCard";
 import { SectionHeader } from "@/components/shared/SectionHeader";
+import { Item } from "./utils";
 
 
 interface HomeCardProps {

@@ -22,7 +22,7 @@ const Navbar = () => {
 
     return (
         // <nav className="bg-background p-4 top-0 sticky">
-        <nav className="bg-background p-4 sticky top-0 z-10">
+        <nav className="bg-background p-4 sticky top-0 z-[1000]">
             <div className="container mx-auto flex items-center justify-between">
                 {/* Logo Section */}
                 <Link to="/" className="text-foreground hover:text-primary">

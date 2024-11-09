@@ -178,11 +178,13 @@ const Home = () => {
       <Slider />
       <HomeCard
         title="Category"
+        // items={categories}
         items={categories}
         viewAllLink="/category"
       />
       <HomeCard
         title="Product"
+        // items={products}
         items={products}
         viewAllLink="/product"
       />

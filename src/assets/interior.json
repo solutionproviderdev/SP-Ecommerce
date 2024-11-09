@@ -1,0 +1,303 @@
+[
+    {
+      "name": "Folding Door",
+      "categories": [
+        {
+          "id": 1,
+          "title": "Burma Teak Folding Door",
+          "material": "Solid Wood",
+          "price": "৳15,000",
+          "image": "/images/doors/burma-teak.jpg",
+          "description": "Premium solid wood door made from Burma Teak, known for its durability and aesthetic appeal.",
+          "dimensions": "7x3 ft",
+          "features": [
+            "High durability",
+            "Natural wood finish",
+            "Water-resistant"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Ply Wood Folding Door (Jointless)",
+          "material": "Ply Wood",
+          "price": "৳8,000",
+          "image": "/images/doors/plywood-jointless.jpg",
+          "description": "Jointless plywood door offering a smooth, seamless surface with high strength.",
+          "dimensions": "7x3 ft",
+          "features": [
+            "Seamless design",
+            "Smooth surface",
+            "Eco-friendly"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Ply Wood Folding Door (With Joint)",
+          "material": "Ply Wood",
+          "price": "৳7,500",
+          "image": "/images/doors/plywood-with-joint.jpg",
+          "description": "Durable plywood door with a jointed structure, suitable for indoor use.",
+          "dimensions": "7x3 ft",
+          "features": [
+            "Cost-effective",
+            "Easy to install",
+            "High strength"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Aluminium Folding Door (Imported)",
+          "material": "Aluminium",
+          "price": "৳12,000",
+          "image": "/images/doors/aluminium-imported.jpg",
+          "description": "Imported aluminium door offering a modern look and resistance to corrosion.",
+          "dimensions": "7x3 ft",
+          "features": [
+            "Corrosion-resistant",
+            "Modern look",
+            "Lightweight"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Aluminium Folding Door (Local)",
+          "material": "Aluminium",
+          "price": "৳10,000",
+          "image": "/images/doors/aluminium-local.jpg",
+          "description": "Locally manufactured aluminium door, budget-friendly and durable.",
+          "dimensions": "7x3 ft",
+          "features": [
+            "Affordable",
+            "Rust-resistant",
+            "Easy to maintain"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Golden Mirror Sheet Folding Door",
+          "material": "Mirror and Metal",
+          "price": "৳20,000",
+          "image": "/images/doors/golden-mirror.jpg",
+          "description": "Luxurious folding door with a golden mirror finish for a sophisticated look.",
+          "dimensions": "7x3 ft",
+          "features": [
+            "Reflective finish",
+            "Luxurious appearance",
+            "Scratch-resistant"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Full Height Cabinets",
+      "categories": [
+        {
+          "id": 7,
+          "title": "Full Height Cabinet (Glossy Surface, Solid)",
+          "material": "Wood and Glass",
+          "price": "৳18,000",
+          "image": "/images/cabinets/full-height-glossy.jpg",
+          "description": "Solid wood cabinet with a glossy finish, ideal for maximizing storage space.",
+          "dimensions": "7x3 ft",
+          "features": [
+            "High gloss finish",
+            "Sturdy structure",
+            "Easy to clean"
+          ]
+        },
+        {
+          "id": 8,
+          "title": "7' Height Cabinet (Matt Finish)",
+          "material": "Wood",
+          "price": "৳14,500",
+          "image": "/images/cabinets/7-height-matt.jpg",
+          "description": "Cabinet with a matt finish, perfect for a modern interior look.",
+          "dimensions": "7x3 ft",
+          "features": [
+            "Matt finish",
+            "Scratch-resistant",
+            "Elegant design"
+          ]
+        },
+        {
+          "id": 9,
+          "title": "Multipurpose Cabinet with Lock & Drawer",
+          "material": "Ply Wood",
+          "price": "৳16,000",
+          "image": "/images/cabinets/multipurpose.jpg",
+          "description": "Versatile cabinet with locking drawers, suitable for office and home storage.",
+          "dimensions": "7x3 ft",
+          "features": [
+            "Secure storage",
+            "Multiple drawers",
+            "Durable"
+          ]
+        },
+        {
+          "id": 10,
+          "title": "Study Chair with Book Shelf",
+          "material": "Wood",
+          "price": "৳5,500",
+          "image": "/images/furniture/study-chair.jpg",
+          "description": "Functional study chair with an attached bookshelf for easy access.",
+          "dimensions": "4x2 ft",
+          "features": [
+            "Space-saving design",
+            "Comfortable seating",
+            "Durable"
+          ]
+        },
+        {
+          "id": 11,
+          "title": "Full Height Cabinet (Matt Finish, Wooden Fiber)",
+          "material": "Wooden Fiber",
+          "price": "৳13,000",
+          "image": "/images/cabinets/full-height-wooden-fiber.jpg",
+          "description": "Wooden fiber cabinet with a matt finish, ideal for large storage.",
+          "dimensions": "7x3 ft",
+          "features": [
+            "Lightweight",
+            "Scratch-resistant",
+            "Eco-friendly"
+          ]
+        },
+        {
+          "id": 12,
+          "title": "Full Height Cabinet (With Front Shutter, Mirror)",
+          "material": "Glass and Wood",
+          "price": "৳19,000",
+          "image": "/images/cabinets/full-height-mirror.jpg",
+          "description": "Stylish cabinet with a mirrored front shutter for a spacious look.",
+          "dimensions": "7x3 ft",
+          "features": [
+            "Mirrored front",
+            "Spacious design",
+            "Durable structure"
+          ]
+        },
+        {
+          "id": 13,
+          "title": "Special Cabinet Luxury",
+          "material": "Wood and Leather",
+          "price": "৳25,000",
+          "image": "/images/cabinets/special-luxury.jpg",
+          "description": "Luxury cabinet made with premium wood and leather accents.",
+          "dimensions": "7x3 ft",
+          "features": [
+            "Premium materials",
+            "Elegant design",
+            "Ample storage"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kitchen Cabinets",
+      "categories": [
+        {
+          "id": 14,
+          "title": "L Shape Kitchen Cabinet",
+          "price": "৳30,000",
+          "image": "/images/kitchen/l-shape.jpg",
+          "description": "L-shaped kitchen cabinet layout providing optimal corner space usage.",
+          "materials": [
+            "Plywood",
+            "Laminate finish"
+          ],
+          "dimensions": "10x8 ft",
+          "features": [
+            "Efficient space utilization",
+            "Durable laminate finish",
+            "Easy to clean"
+          ]
+        },
+        {
+          "id": 15,
+          "title": "U Shape Kitchen Cabinet",
+          "price": "৳35,000",
+          "image": "/images/kitchen/u-shape.jpg",
+          "description": "U-shaped cabinet layout for maximum workspace in compact kitchens.",
+          "materials": [
+            "Plywood",
+            "Laminate finish"
+          ],
+          "dimensions": "10x10 ft",
+          "features": [
+            "Spacious design",
+            "Durable finish",
+            "Ideal for small kitchens"
+          ]
+        },
+        {
+          "id": 16,
+          "title": "I Shape Kitchen Cabinet",
+          "price": "৳25,000",
+          "image": "/images/kitchen/i-shape.jpg",
+          "description": "Single wall kitchen cabinet layout, ideal for open kitchen spaces.",
+          "materials": [
+            "Plywood",
+            "Laminate finish"
+          ],
+          "dimensions": "8x3 ft",
+          "features": [
+            "Simple layout",
+            "Space-saving",
+            "Easy access to all areas"
+          ]
+        },
+        {
+          "id": 17,
+          "title": "Double I Shape Kitchen Cabinet",
+          "price": "৳40,000",
+          "image": "/images/kitchen/double-i.jpg",
+          "description": "Parallel kitchen cabinets on two walls for maximum storage and workspace.",
+          "materials": [
+            "Plywood",
+            "Laminate finish"
+          ],
+          "dimensions": "12x6 ft",
+          "features": [
+            "Ample storage",
+            "Modern design",
+            "Efficient layout"
+          ]
+        },
+        {
+          "id": 18,
+          "title": "Island Shape Kitchen Cabinet",
+          "price": "৳50,000",
+          "image": "/images/kitchen/island.jpg",
+          "description": "Island layout with central countertop, perfect for large kitchens.",
+          "materials": [
+            "Plywood",
+            "Laminate finish",
+            "Granite countertop"
+          ],
+          "dimensions": "12x10 ft",
+          "features": [
+            "Central workspace",
+            "Ideal for hosting",
+            "High-end finish"
+          ]
+        },
+        {
+          "id": 19,
+          "title": "Slab Kitchen Cabinet",
+          "price": "৳45,000",
+          "image": "/images/kitchen/slab.jpg",
+          "description": "Slab-style kitchen cabinets with a minimalistic look.",
+          "materials": [
+            "Plywood",
+            "Laminate finish"
+          ],
+          "dimensions": "8x6 ft",
+          "features": [
+            "Modern slab doors",
+            "Sleek design",
+            "Easy to maintain"
+          ]
+        }
+      ]
+    }
+  ]
+  

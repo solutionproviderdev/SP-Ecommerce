@@ -23,7 +23,7 @@ import Home from "./page/Home/Home";
 import Category from "./page/category/Category";
 import Product from "./page/Home/Product";
 import CategoryDetail from "./page/category/CategoryDetail";
-import { nestedcategories } from "./page/Home/utils";
+import { nestedCategories } from "./page/Home/utils";
 
 const App = () => {
   const router = createBrowserRouter(
@@ -35,13 +35,11 @@ const App = () => {
         </Route>
         <Route path="/" element={<LoggedLayout />}>
           <Route path="/home" element={<Home />} />
-          <Route path="/category" element={<Category />}>
-          </Route>
-            <Route
-              path="/category/:categoryId"
-              // path="category/:slug/*"  //for dynamic slug show instead of id 
-              element={<CategoryDetail categories={nestedcategories} />}
-            />
+          <Route path="/category" element={<Category />}></Route>
+          <Route
+            path="/category/*"
+            element={<CategoryDetail categories={nestedCategories} />}
+          />
 
           <Route path="/product" element={<Product />} />
           <Route path="/cart" element={<Cart />} />
@@ -66,5 +64,3 @@ const App = () => {
 };
 
 export default App;
-
-
